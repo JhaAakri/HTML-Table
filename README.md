@@ -6,3 +6,7 @@ This is a simple HTML table displaying information about employees, including th
 How to Use
 1.Clone the repository or download the index.html file.
 2.Open the index.html file in your web browser.
+
+
+
+![Alt text](htmltable.png)
