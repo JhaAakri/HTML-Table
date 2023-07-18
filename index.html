@@ -2,14 +2,28 @@
 <html>
 <head>
     <title> Table</title>
+    <style>
+         table {
+            border: 1px solid black; 
+            border-collapse: collapse; 
+        }
+        td {
+            padding: 5px;
+            text-align: center;
+            border: 1px solid black; 
+        }
+        tr:not(:first-child) td {
+            border-top: none; 
+        }
+    </style>
 </head>
 <body>
-    <table border="1">
+    <table>
         <tr>
-            <td>No.</td>
-            <td>Full Name</td>
-            <td>Position</td>
-            <td>Salary</td>
+            <td><b>No.</b></td>
+            <td><b>Full Name</b></td>
+            <td><b>Position</b></td>
+            <td><b>Salary</b></td>
         </tr>
         <tr>
             <td>1</td>
